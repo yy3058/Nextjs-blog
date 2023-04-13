@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --color-grey-50: hsl(265, 55%, 96%);
+  --color-grey-100: #c1bcbe;
+  --color-grey-200: #a7a09f;
+  --color-grey-300: #95908c;
+  --color-grey-400: #8c8883;
+  --color-grey-500: #838079;
+  --color-grey-600: #76726c;
+  --color-grey-700: #686460;
+  --color-grey-800: #4e4947;
+  --color-grey-900: #332e2e;
+
+  --color-primary-50: #cfe1ff;
+  --color-primary-100: #adc9fc;
+  --color-primary-200: #8db0f8;
+  --color-primary-300: #7ea4f6;
+  --color-primary-400: #608aef;
+  --color-primary-500: #537fda;
+  --color-primary-600: #3c68ae;
+  --color-primary-700: #325b98;
+  --color-primary-800: #284e80;
+  --color-primary-900: #16324d;
+
+  --color-success-100: #a2f0bc;
+  --color-success-500: #12bd4b;
+
+  --color-error-100: #f1acc9;
+  --color-error-500: #a10c4a;
+
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-8: 2rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-40: 10rem;
+
+  margin: 0;
+  background-color: var(--color-primary-50);
+  color: #252525;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}

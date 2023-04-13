@@ -1,0 +1,40 @@
+.content {
+  width: 95%;
+  max-width: 60rem;
+  margin: var(--size-8) auto;
+  font-size: var(--size-5);
+  line-height: var(--size-8);
+  background-color: rgb(23, 24, 26);
+  border-radius: 6px;
+  padding: var(--size-4);
+}
+
+.content h1 {
+  color: var(--color-primary-100);
+}
+.content h2 {
+  color: #fff;
+}
+.content p {
+  color: #fff;
+}
+
+.content li {
+  color: #fff;
+}
+
+.pre p {
+  color: #fff;
+}
+
+.content .image {
+  margin: var(--size-4) auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: var(--size-8);
+  }
+}
